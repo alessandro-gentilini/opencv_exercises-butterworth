@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+PROJECT( butterworth )
+FIND_PACKAGE( OpenCV REQUIRED )
+ADD_EXECUTABLE( butterworth butterworth.cpp )
+TARGET_LINK_LIBRARIES( butterworth ${OpenCV_LIBS} )
+SET(CMAKE_CXX_FLAGS "-std=c++0x")
