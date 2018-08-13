@@ -1,5 +1,6 @@
 // Author: Alessandro Gentilini, 2013, based on a work by Toby Breckon,
 // originally found at http://public.cranfield.ac.uk/c5354/teaching/dip/opencv/lecture_demos/c++/butterworth_lowpass.cpp
+// n ow at https://github.com/tobybreckon/cpp-examples-ipcv/blob/master/butterworth_lowpass.cpp
 
 // Example : apply butterworth low pass filtering to input image/video
 // usage: prog {<image_name> | <video_name>}
